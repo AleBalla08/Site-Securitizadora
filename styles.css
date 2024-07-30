@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: black;
+
+
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    padding: 1%;
+    }
+
+    .cabecalho__menu{
+display: flex;
+margin-right: 10%;
+    }
+
+
+
+ .cabecalho__logo{
+    font-size: 30px;
+
+    font-family: "Oswald", sans-serif;
+ }
+
+.cabecalho__link{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    padding: 0% 15%;
+    cursor: pointer;
+    color: white;
+}
+
+.inicio{
+    margin-right: 30px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+strong {
+
+    color: red;
+}
+
+.principal__caixa {
+    background-color: white;
+    width: 135vh;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 70px;
+
+
+
+
+}
+
+.principal__caixa__texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa__titulo{
+    margin-left: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 85px;
+    font-weight:bolder;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.caixa__parag{
+    margin-left: 40px;
+    margin-top:2% ;
+    font-weight: 500;
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+}
+
+.caixa__mais {
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    height: 1200px;
+    width: 1200px;
+    z-index: 3;
+}
+
+
+/* TROCA DE PAGINA */
+
+.container__dois{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;}
+
+    .principal__dois{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .principal__titulo{
+        color: white;
+        padding: 18% 10%;
+        font-size: 120px;
+        font-family: "UBUNTU", sans-serif;
+    }
+
+    .principal__dois__imagem{
+        width: 1000px;
+        height: 800px;
+        padding: 8% 5%;
+    }
+
+
+
+    /* pagina tres */
+
+
+    .container__tres{
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+        
+    }
+
+    .principal__tres{
+        text-align: center;
+        
+        padding: 6%;
+        color: white;
+    }
+
+    .principal__tres__titulo{
+        font-size: 90px;
+        font-family: "ubuntu", sans-serif;
+        padding: 5%;
+    }
+
+    .link__contato{
+        background-color: black;
+        border: 2px solid white;
+        border-radius: 6px;
+        padding: 1% 3%;
+        font-size: 18px;
+        font-family: "oswald", sans-serif;
+       cursor: pointer;
+       color: white;
+    }
+
+
+    .rodape{
+        background-color: #272727;
+        color: white;
+        height: 90px;
+       bottom: 0;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row;
+       text-align: center;
+       padding: 1%;
+       font-size: 22px;
+       align-items: center;
+    }
+
+    .texto__um{
+        display: flex;
+        gap: 50px;
+        margin-left: 15%;
+
+    }
+    .info__dev{
+        padding: 0%  6%;
+        margin-right: 10%;
+        font-size: 22px;
+    }
